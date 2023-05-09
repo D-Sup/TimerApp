@@ -1,0 +1,126 @@
+:root {
+  font-family: 'Pretendard Regular', sans-serif;
+  --font-size-xlg : 40px;
+  --font-size-lg : 24px;
+  --font-size-md : 14px;
+  --font-size-sm : 12px;
+
+}
+
+body,h1,h2,h3,h4,h5,p,label,input,button {
+  margin: initial;
+  padding: initial;
+  font-family: inherit;
+}
+
+.a11y-hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+body {
+  background-image: linear-gradient(90deg, #F0F4FF 0%, #A5B6EE 100%);
+}
+
+.logo {
+  margin-top: 72px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.logo-img {
+  width: 244px;
+  height: 48px;
+}
+
+.App-body {
+  width: 400px;
+  padding: 48px 44px 40px;
+  box-sizing: border-box;
+  background-image: linear-gradient(144deg, #5572BB 0%, #374B7C 100%);
+  box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+  border-radius: 16px;
+}
+
+.App-body {
+  margin: auto;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.App-name {
+  font-weight: 700;
+  font-size: var(--font-size-lg);
+  color: #fff;
+  padding-bottom: 24px;
+}
+
+.App-name::after {
+  content: '';
+  margin: 24px auto;
+  display: block;
+  width: 312px;
+  height: 1px;
+  background: #5B75B4;
+  box-shadow: 0 -1px 0 #3D538A;
+}
+
+.section-inpt {
+  margin-bottom: 40px;
+}
+
+.time::-webkit-outer-spin-button,
+.time::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.time[type="number"] {
+  text-align: center;
+}
+
+.time[placeholder] {
+  color: #fff;
+}
+
+.time {
+  border: 0;
+  background: url(./images/input-box.png) no-repeat 50% 50%;
+  font-size: var(--font-size-xlg);
+  font-weight: 700;
+  width: 80px;
+  height: 80px;
+}
+
+.time::-webkit-input-placeholder { /* Chrome, Safari, Opera */
+  color: #fff;
+}
+
+.btn-startorstop,
+.btn-restart {
+  border: 0;
+  margin: 0 6px;
+  width: 112px;
+  height: 48px;
+  border-radius: 50px;
+  background-color: #374B7C;
+};
+
+.section-btn {
+  margin-bottom: 40px;
+}
+
+.footer {
+  margin: 100px auto;
+  text-align: center;
+  font-weight: 400;
+  color: #8596BF;
+}

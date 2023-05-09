@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TimerApp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 class="logo"><img class="logo-img" src="./images/logo.svg" alt="로고 이미지"></h1>
+  <div class="App-body">
+    <div class="wrapper">
+    <h2 class="App-name">TIMER</h2>
+    <section class="App-display">
+      <div class="section-inpt">
+        <label for="inpt-hrs" class="a11y-hidden">시간입력란</label>
+        <input id="inpt-hrs" type="number" class="time display-hrs" placeholder="00">
+        <img src="./images/dot.svg" class="dot" alt="도트 이미지">
+        <label for="inpt-min" class="a11y-hidden">분입력란</label>
+        <input id="inpt-min" type="number" class="time display-min" placeholder="00">
+        <img src="./images/dot.svg" class="dot" alt="도트 이미지">
+        <label for="inpt-sec" class="a11y-hidden">초입력란</label>
+        <input id="inpt-sec" type="number" class="time display-sec" placeholder="00">
+      </div>
+      <div class="section-btn">
+        <button type="button" class="btn-startorstop">
+          <img class="img-startorstop" src="./images/before-start-btn.svg" alt="">
+        </button>
+        <button type="button" class="btn-restart">
+          <img class="img-restart" src="./images/before-reset-btn.svg" alt="">
+        </button>
+      </div>
+  </section>
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>© WENIV CORP.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
